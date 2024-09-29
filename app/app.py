@@ -45,7 +45,7 @@ def receive_prediction():
     print(data)
     
     # Extract the predicted lap time and lap data
-    predicted_lap_time = data.get('predicted_lap_time')
+    predicted_lap_time = data.get('prediction')
     lap_data = data.get('lap_data')
 
     # Log the received prediction
