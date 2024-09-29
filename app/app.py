@@ -39,6 +39,7 @@ def send_prediction():
 
 @app.route('/receive_prediction', methods=['POST'])
 def receive_prediction():
+    print('hi')
     # Get the JSON data from the request
     data = request.get_json()
     
@@ -57,4 +58,4 @@ def receive_prediction():
 
 if __name__ == '__main__':
     # Run the Flask app
-    app.run(host='0.0.0.0', port=3000)  # Ensure it runs on all interfaces
+    app.run(debug=True, host='0.0.0.0', port=3000)  # Ensure it runs on all interfaces

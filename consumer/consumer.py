@@ -33,9 +33,10 @@ while True:
 
             input_data = np.array(list(lap_data.values())).reshape(1, -1)
             
-
+            print(input_data)
             prediction = model.predict(input_data)
             payload = {"prediction": f"{prediction[0][0].tolist()}", "lap_data": lap_data}
+            print(payload)
             
             try:
                 response = requests.post(f"http://app:3000/receive_prediction", json=payload)  # Send prediction to the Flask app
