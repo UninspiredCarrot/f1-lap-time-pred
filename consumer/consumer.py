@@ -34,7 +34,9 @@ while True:
             input_data = np.array(list(lap_data.values())).reshape(1, -1)
             
             print(input_data)
+            print(model)
             prediction = model.predict(input_data)
+            print(prediction)
             payload = {"prediction": f"{prediction[0][0].tolist()}", "lap_data": lap_data}
             print(payload)
             
