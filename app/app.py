@@ -51,6 +51,10 @@ def receive_prediction():
     print(f"Received prediction: {predicted_lap_time}")
     print(f"Lap data: {lap_data}")
 
+    f = open("output.txt", "a")
+    f.write(f"Received prediction: {predicted_lap_time}")
+    f.close()
+
     # Here you could save the prediction to a database or perform additional processing
 
     # Return a success response
