@@ -42,6 +42,7 @@ def receive_prediction():
     print('hi')
     # Get the JSON data from the request
     data = request.get_json()
+    print(data)
     
     # Extract the predicted lap time and lap data
     predicted_lap_time = data.get('predicted_lap_time')
