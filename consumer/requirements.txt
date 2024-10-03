@@ -1,5 +1,0 @@
-kafka-python
-pandas  # If you plan to use Pandas for data manipulation later
-numpy   # If you plan to use NumPy for numerical operations
-tensorflow
-requests
