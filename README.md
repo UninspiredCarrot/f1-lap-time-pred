@@ -1,5 +1,5 @@
 # F1 Lap Time Predictor
-This project aims to predict lap times in Formula 1 racing using a machine learning approach, leveraging various data sources and advanced techniques. The project is structured around data collection, cleaning, exploratory data analysis (EDA), model training, and deployment, utilizing technologies like FastF1, TensorFlow, and Apache Kafka.
+This project aims to predict lap times in Formula 1 racing using a machine learning approach, using various data sources and advanced techniques. The project is structured around data collection, cleaning, exploratory data analysis (EDA), model training, and deployment, utilizing technologies like FastF1, TensorFlow, and Apache Kafka.
 
 ![Alt text](media/POST.png? "POST request")
 ![Alt text](media/GET.png? "GET request")
