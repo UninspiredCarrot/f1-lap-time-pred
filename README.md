@@ -1,6 +1,9 @@
 # F1 Lap Time Predictor
 This project aims to predict lap times in Formula 1 racing using a machine learning approach, leveraging various data sources and advanced techniques. The project is structured around data collection, cleaning, exploratory data analysis (EDA), model training, and deployment, utilizing technologies like FastF1, TensorFlow, and Apache Kafka.
 
+![Alt text](media/POST.png? "POST request")
+![Alt text](media/GET.png? "GET request")
+
 ## Data Collection with FastF1
 To gather lap data, I utilized the FastF1 library, which provides an intuitive interface for accessing Formula 1 data.
 
@@ -27,4 +30,8 @@ Kafka Consumer: The consumer retrieves the data from the Kafka topic and process
 Microservice Architecture
 The project is organized into a microservice architecture, with separate services for the API, consumer, and producer, each encapsulated within Docker containers. This structure ensures scalability and easy deployment, allowing each component to be developed and maintained independently.
 
-
+## TODO
+- Frontend Development: Create a user-friendly web interface using frameworks like React to display lap time predictions, historical data, and visualizations for users.
+- Expand Dataset: Incorporate additional years of Formula 1 data to enhance model training, allowing the model to learn from a more comprehensive dataset and improve its predictive capabilities.
+- Automated Testing
+- API Documentation with OpenAPI
