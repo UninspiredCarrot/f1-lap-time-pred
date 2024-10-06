@@ -49,12 +49,11 @@ services:
       kafka:
         condition: service_healthy
 
-  app:
+  api:
     build:
-      context: ./app
+      context: ./api
     ports:
       - "300:3000"
     depends_on:
       kafka:
         condition: service_healthy
-

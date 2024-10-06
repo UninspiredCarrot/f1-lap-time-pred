@@ -1,0 +1,98 @@
+{
+    "Brake_mean": {
+        "max": 0.31756756756756754,
+        "min": 0.09302325581395349
+    },
+    "Humidity": {
+        "max": 79.0,
+        "min": 18.0
+    },
+    "LapNumber": {
+        "max": 77.0,
+        "min": 2.0
+    },
+    "LapTime": {
+        "max": 125.716,
+        "min": 67.012
+    },
+    "LapsOnTyre": {
+        "max": 38.0,
+        "min": 1.0
+    },
+    "Position": {
+        "max": 20.0,
+        "min": 1.0
+    },
+    "RPM_max": {
+        "max": 12767.0,
+        "min": 11480.0
+    },
+    "RPM_mean": {
+        "max": 10906.9125,
+        "min": 9063.268518518518
+    },
+    "RPM_median": {
+        "max": 11198.5,
+        "min": 9731.0
+    },
+    "RPM_min": {
+        "max": 7614.0,
+        "min": 3445.0
+    },
+    "RPM_std": {
+        "max": 2197.95434090663,
+        "min": 769.8354138961892
+    },
+    "SpeedAtFinishLine": {
+        "max": 355.0,
+        "min": 180.0
+    },
+    "SpeedAtLongestStraight": {
+        "max": 347.0,
+        "min": 256.0
+    },
+    "Speed_max": {
+        "max": 360.0,
+        "min": 267.0
+    },
+    "Speed_mean": {
+        "max": 245.22641509433961,
+        "min": 134.715625
+    },
+    "Speed_median": {
+        "max": 266.0,
+        "min": 119.0
+    },
+    "Speed_min": {
+        "max": 104.0,
+        "min": 33.0
+    },
+    "Speed_std": {
+        "max": 90.49818504374616,
+        "min": 45.75260734271527
+    },
+    "Stint": {
+        "max": 6.0,
+        "min": 1.0
+    },
+    "Throttle_mean": {
+        "max": 78.82072829131653,
+        "min": 41.36875
+    },
+    "Throttle_std": {
+        "max": 45.72699635685228,
+        "min": 37.12251749930713
+    },
+    "WindSpeed": {
+        "max": 3.7,
+        "min": 0.0
+    },
+    "nGear_median": {
+        "max": 7.0,
+        "min": 2.0
+    },
+    "nGear_min": {
+        "max": 4.0,
+        "min": 1.0
+    }
+}
